@@ -7,7 +7,6 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-
 img {
   border-radius: 50%;
 }
@@ -32,6 +31,7 @@ img {
   float: left;
   font-size: 20px;
   font-weight: bold;
+  margin-left: 10px;
 }
 
 #header-nav {
@@ -100,8 +100,13 @@ p {
   color: white;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  margin-left: 10px;
 }
 
 #footer p {
   color: white;
+}
+
+#footer a, p {
+  margin-left: 10px;
 }
